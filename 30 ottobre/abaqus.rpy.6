@@ -1,0 +1,30 @@
+# -*- coding: mbcs -*-
+#
+# Abaqus/CAE Release 2024.HF2 replay file
+# Internal Version: 2024_03_15-20.54.40 RELr426 191119
+# Run by Lorenzo on Thu Oct 30 17:13:49 2025
+#
+
+# from driverUtils import executeOnCaeGraphicsStartup
+# executeOnCaeGraphicsStartup()
+#: Executing "onCaeGraphicsStartup()" in the site directory ...
+from abaqus import *
+from abaqusConstants import *
+session.Viewport(name='Viewport: 1', origin=(1.11979, 1.1169), width=164.833, 
+    height=110.796)
+session.viewports['Viewport: 1'].makeCurrent()
+from driverUtils import executeOnCaeStartup
+executeOnCaeStartup()
+execfile(
+    'C:/Users/Lorenzo/Desktop/Semester project/Project/test-repo/prove/MacroTopOptSquare.py', 
+    __main__.__dict__)
+#: ✅ Job completato. ODB generato in: C:\Users\Lorenzo\Desktop\TopOpt\TopOpt_20251030_171349
+#: 
+#: ✅ Airfoil completo con forze concentrate:
+#:    - File CSV: C:\Users\Lorenzo\Desktop\Semester project\exports\airfoil_coords_pressure_2d_case4_slice8.csv
+#:    - Mesh size = 0.0050 m
+#:    - Step statico "Step-1" creato
+#:    - Volume ratio impostato a: 0.70
+#:    - Cartella risultati: C:\Users\Lorenzo\Desktop\TopOpt\TopOpt_20251030_171349
+print('RT script done')
+#: RT script done

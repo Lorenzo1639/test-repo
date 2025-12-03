@@ -1,0 +1,960 @@
+# -*- coding: mbcs -*-
+from part import *
+from sketch import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from mesh import *
+mdb.models['Model-1'].ConstrainedSketch(name='__profile__', sheetSize=200.0)
+mdb.models['Model-1'].sketches['__profile__'].Spline(points=[(0.99, 
+    0.0006267837), (0.99, 0.001046121), (0.99, 0.001046121), (
+    0.978922534489943, 0.00295546197841269), (0.967861210269907, 
+    0.00478705007310322), (0.956820765812945, 0.00658525632489068), (
+    0.945800648450234, 0.00834233704424534), (0.934800326045592, 
+    0.0100506634763991), (0.923819289141818, 0.0117027196768997), (
+    0.912857035251692, 0.0132911031815079), (0.901913074608192, 
+    0.0148085223562416), (0.890986920703975, 0.0162477959862874), (
+    0.880078084890035, 0.0176018520261069), (0.869186070622196, 
+    0.0188637261139625), (0.858279178661263, 0.0200326309045654), (
+    0.847321161428669, 0.02112021287193), (0.836312743975764, 
+    0.0221375817817114), (0.825254761345025, 0.0230961036197237), (
+    0.814148087053332, 0.0240074167764948), (0.802993615855542, 
+    0.0248834418089136), (0.791792264889995, 0.0257363896516913), (
+    0.780558400761578, 0.0265766584420165), (0.769314643281503, 
+    0.0274075989250444), (0.758061364648082, 0.0282317987582339), (
+    0.746798602323972, 0.0290518794850108), (0.735526699463868, 
+    0.0298704535006014), (0.724257800175659, 0.0306892874641284), (
+    0.712998221737122, 0.0315105679456828), (0.701744715053907, 
+    0.0323369798442151), (0.690483886635685, 0.0331691874543811), (
+    0.67921418823601, 0.0340048720683215), (0.66794218041885, 
+    0.0348410502096629), (0.656678522224525, 0.0356744322753592), (
+    0.645423233250148, 0.036502528272929), (0.634176186491289, 
+    0.0373228707054802), (0.622937255588324, 0.0381330035788915), (
+    0.611706315550436, 0.0389304822850878), (0.600483242230912, 
+    0.0397128735782906), (0.58926791222038, 0.0404777555211081), (
+    0.578060202748193, 0.0412227174302977), (0.56685999142202, 
+    0.0419453598326237), (0.555667156293099, 0.0426432943979589), (
+    0.544481575490712, 0.0433141438985458), (0.533303127100276, 
+    0.0439555421488011), (0.522131688963667, 0.0445651339460662), (
+    0.510967138454281, 0.0451405750074527), (0.499809352243409, 
+    0.0456795319005448), (0.48865747231281, 0.0461797244412192), (
+    0.477473844783221, 0.0466446401470511), (0.466237088600045, 
+    0.0470876780367798), (0.454953618338958, 0.0475230548400073), (
+    0.44370006154501, 0.0479625756948008), (0.432497751776822, 
+    0.0484199920875341), (0.421319835495315, 0.0489092682694314), (
+    0.410054349965272, 0.0494245543213842), (0.398841617227446, 
+    0.0499287644445164), (0.387737527814836, 0.0503888166771877), (
+    0.376739049601971, 0.0507760415385538), (0.365842931288639, 
+    0.0510634045007143), (0.354967846536149, 0.0512341601752934), (
+    0.344053100268654, 0.0512948261942015), (0.33309820041474, 
+    0.0512554606059376), (0.322102700726195, 0.0511263447755457), (
+    0.311066190404915, 0.0509179923429717), (0.299988283130503, 
+    0.0506411572545883), (0.288868605352483, 0.0503068410567429), (
+    0.277706776650433, 0.049926299407732), (0.266502417379919, 
+    0.0495110492729833), (0.255255126993222, 0.0490728752662114), (
+    0.244001504270927, 0.0486221305883292), (0.23279222372902, 
+    0.0481537915406427), (0.22162827024065, 0.0476559789984123), (
+    0.21051032913312, 0.0471170729035177), (0.199439081826324, 
+    0.0465257191693933), (0.188415185235267, 0.0458708218244316), (
+    0.177439271354036, 0.0451415360652339), (0.166511930674384, 
+    0.0443272600967275), (0.155633704761455, 0.0434176268879641), (
+    0.1448050642414, 0.0424024938006258), (0.134026407082326, 
+    0.0412719325953194), (0.123298034669997, 0.0400162158884792), (
+    0.112620143151444, 0.0386258030276093), (0.101992804785973, 
+    0.0370913226009778), (0.0914698862799379, 0.0354083056431646), (
+    0.0811502395548527, 0.0335585178494445), (0.071047225523772, 
+    0.0315059308365974), (0.0611712142902726, 0.0292179685206197), (
+    0.0515304599293776, 0.0266651696025459), (0.0421307157109785, 
+    0.0238205320498636), (0.0329748997412969, 0.0206587135625685), (
+    0.0240629880434331, 0.0171551171574675), (0.0156859194504396, 
+    0.0134117654952598), (0.00968127800962985, 0.010132243005965), (
+    0.00538163703067453, 0.00699841986330984), (0.0021510113772107, 
+    0.00376560635769267), (-1.56044e-08, 4.728764e-05), (-1.56044e-08, 
+    4.728764e-05), (0.00102050959526343, -0.00166534688692357), (
+    0.00322357953781953, -0.00324756327604582), (0.00762673320170816, 
+    -0.00532742997218585), (0.0133923680315974, -0.00717614782310777), (
+    0.0205301923066693, -0.0086140957195072), (0.0298477564733408, 
+    -0.00979797944467623), (0.0401894908389703, -0.0108283600698195), (
+    0.0506005782254427, -0.0116579227172292), (0.061084363639151, 
+    -0.0123038166543548), (0.0716438418319054, -0.0127837994119292), (
+    0.0822817117570609, -0.0131163396489397), (0.0930004548244912, 
+    -0.0133207087739116), (0.103802394766401, -0.0134170615629796), (
+    0.114689762208885, -0.013426509718192), (0.125652741092595, 
+    -0.0133706537245115), (0.136635532407971, -0.0132617768894495), (
+    0.147630700047225, -0.0131032831101465), (0.158638114178101, 
+    -0.0128982787926096), (0.169657642326004, -0.012649890664759), (
+    0.180689151204265, -0.0123612658894638), (0.191732504492278, 
+    -0.0120355722617386), (0.202787565933094, -0.0116759982652051), (
+    0.213854199332058, -0.0112857531851713), (0.224932267178125, 
+    -0.0108680672805232), (0.23602163338539, -0.0104261918093182), (
+    0.24712216271226, -0.00996339916702783), (0.258233721104791, 
+    -0.00948298300072034), (0.269356175998299, -0.00898825833203177), (
+    0.280489396576266, -0.00848256169149553), (0.291632648673356, 
+    -0.00796923188264161), (0.302784757200758, -0.00745128666171436), (
+    0.313943415535152, -0.00693164632042079), (0.325093817386475, 
+    -0.00641382152686148), (0.336233846722547, -0.00590072259924312), (
+    0.347363840797246, -0.0053951304596518), (0.358484136857762, 
+    -0.00489981093595505), (0.369595071731582, -0.00441751489094717), (
+    0.38069698220021, -0.00395097832104822), (0.391790205027789, 
+    -0.00350292247666992), (0.402876336510285, -0.00307596580292237), (
+    0.413970648160674, -0.0026700207965886), (0.425077371473282, 
+    -0.00228217226512151), (0.4361962783472, -0.00190939375422952), (
+    0.447327140209526, -0.00154864058271715), (0.458469728194233, 
+    -0.00119684972034352), (0.469623813285497, -0.000850939662324959), (
+    0.480789166466201, -0.000507810298054724), (0.491954363111132, 
+    -0.00016468788168502), (0.503107948478578, 0.000181200424605977), (
+    0.514260916674807, 0.00053229606056347), (0.52542539098835, 
+    0.000886722260197827), (0.536586325961092, 0.00124056349394693), (
+    0.547734738482402, 0.00159010100107963), (0.558870825548803, 
+    0.0019319293425563), (0.569994782844658, 0.0022626654958593), (
+    0.581106805591504, 0.00257894869723857), (0.592207088731172, 
+    0.00287744026006639), (0.60329582678474, 0.00315482338159907), (
+    0.614373214714586, 0.00340780297107194), (0.625439448473231, 
+    0.00363310545660382), (0.636507512048687, 0.00382871472350821), (
+    0.647598822295776, 0.00399889094560097), (0.658713656218631, 
+    0.00414986235101465), (0.669851954806638, 0.00428793279723927), (
+    0.681013660517293, 0.00441948503868981), (0.692177758812287, 
+    0.00455073178221121), (0.703318630959606, 0.00468783750066572), (
+    0.71443615691219, 0.00483719241019835), (0.725535184565688, 
+    0.00500498912797204), (0.736654492735142, 0.00519165491125115), (
+    0.747802740504211, 0.00538969604897331), (0.75896678538456, 
+    0.00559069626868171), (0.770104370088706, 0.00578566024764877), (
+    0.781212762602293, 0.00596640288322925), (0.792292354331502, 
+    0.00612492306885908), (0.803343532813142, 0.00625334487301805), (
+    0.814366686706119, 0.00634391510769306), (0.825365927617221, 
+    0.00638932970066635), (0.836346416959598, 0.00638400788051063), (
+    0.847307787856133, 0.00632292726830642), (0.85824964076507, 
+    0.00620111813914567), (0.869171584877795, 0.00601366263908679), (
+    0.880074322278248, 0.00575568850782702), (0.890984043823031, 
+    0.00542480492108606), (0.901912102642603, 0.00502526869463847), (
+    0.912858533678224, 0.00456243271479367), (0.923823364430947, 
+    0.00404171153879809), (0.934806616974659, 0.0034685823263692), (
+    0.945808312198794, 0.00284858554985834), (0.956828471820437, 
+    0.00218732572676861), (0.96786711752409, 0.00149047230734381), (
+    0.978924275496887, 0.000763760233989097), (0.99, -2.222224e-06), (0.99, 
+    -2.222224e-06), (0.99, 0.0006267837)])
+mdb.models['Model-1'].Part(dimensionality=TWO_D_PLANAR, name='Airfoil', type=
+    DEFORMABLE_BODY)
+mdb.models['Model-1'].parts['Airfoil'].BaseShell(sketch=
+    mdb.models['Model-1'].sketches['__profile__'])
+del mdb.models['Model-1'].sketches['__profile__']
+mdb.models['Model-1'].ConstrainedSketch(name='__hole__', sheetSize=200.0)
+mdb.models['Model-1'].sketches['__hole__'].CircleByCenterPerimeter(center=(
+    0.19799998751648, 0.0156235570132463), point1=(0.207899987672524, 
+    0.0156235570132463))
+mdb.models['Model-1'].parts['Airfoil'].Cut(sketch=
+    mdb.models['Model-1'].sketches['__hole__'])
+del mdb.models['Model-1'].sketches['__hole__']
+mdb.models['Model-1'].ConstrainedSketch(name='__hole__', sheetSize=200.0)
+mdb.models['Model-1'].sketches['__hole__'].CircleByCenterPerimeter(center=(
+    0.39599999063736, 0.0156235570132463), point1=(0.405899990793404, 
+    0.0156235570132463))
+mdb.models['Model-1'].parts['Airfoil'].Cut(sketch=
+    mdb.models['Model-1'].sketches['__hole__'])
+del mdb.models['Model-1'].sketches['__hole__']
+mdb.models['Model-1'].Material(name='Material-Airfoil')
+mdb.models['Model-1'].materials['Material-Airfoil'].Density(table=((2700.0, ), 
+    ))
+mdb.models['Model-1'].materials['Material-Airfoil'].Elastic(table=((
+    70000000000.0, 0.33), ))
+mdb.models['Model-1'].HomogeneousSolidSection(material='Material-Airfoil', 
+    name='Section-Airfoil', thickness=None)
+mdb.models['Model-1'].parts['Airfoil'].SectionAssignment(region=(
+    mdb.models['Model-1'].parts['Airfoil'].faces, ), sectionName=
+    'Section-Airfoil')
+mdb.models['Model-1'].rootAssembly.DatumCsysByDefault(CARTESIAN)
+mdb.models['Model-1'].rootAssembly.Instance(dependent=OFF, name='Airfoil-1', 
+    part=mdb.models['Model-1'].parts['Airfoil'])
+mdb.models['Model-1'].StaticStep(name='Step-1', nlgeom=OFF, previous='Initial')
+mdb.models['Model-1'].rootAssembly.seedPartInstance(deviationFactor=0.1, 
+    minSizeFactor=0.1, regions=(
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'], ), size=0.005)
+mdb.models['Model-1'].rootAssembly.setElementType(elemTypes=(ElemType(
+    elemCode=CPS4R, elemLibrary=STANDARD), ), regions=(
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].faces, ))
+mdb.models['Model-1'].rootAssembly.generateMesh(regions=(
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'], ))
+mdb.models['Model-1'].DisplacementBC('BC-Hole1', 'Initial', Region(
+    edges=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#2 ]', ), )), u1=0, u2=0, ur3=0)
+mdb.models['Model-1'].DisplacementBC('BC-Hole2', 'Initial', Region(
+    edges=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#1 ]', ), )), u1=0, u2=0, ur3=0)
+mdb.models['Model-1'].ConcentratedForce(cf2=0.003139592, createStepName=
+    'Step-1', name='Force-1', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:8 #80000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.02574108, createStepName=
+    'Step-1', name='Force-2', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:8 #80000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.02574108, createStepName=
+    'Step-1', name='Force-3', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:8 #80000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.0148836152288433, createStepName=
+    'Step-1', name='Force-4', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:18 #400 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.014975534964892, createStepName=
+    'Step-1', name='Force-5', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#10000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.0417536893258267, 
+    createStepName='Step-1', name='Force-6', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:18 #1000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.0669300586308337, 
+    createStepName='Step-1', name='Force-7', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#80000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.0914377086675368, 
+    createStepName='Step-1', name='Force-8', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0 #1 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.114972512570259, createStepName=
+    'Step-1', name='Force-9', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0 #4 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.137372444662886, createStepName=
+    'Step-1', name='Force-10', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0 #8 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.158614017822884, createStepName=
+    'Step-1', name='Force-11', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:18 #10000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.178543779113265, createStepName=
+    'Step-1', name='Force-12', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0 #40 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.196764022677595, createStepName=
+    'Step-1', name='Force-13', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0 #80 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.212666542175683, createStepName=
+    'Step-1', name='Force-14', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0 #200 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.226239758941232, createStepName=
+    'Step-1', name='Force-15', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0 #400 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.237287351717161, createStepName=
+    'Step-1', name='Force-16', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:18 #100000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.244888163452494, createStepName=
+    'Step-1', name='Force-17', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0 #2000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.248476546087246, createStepName=
+    'Step-1', name='Force-18', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0 #4000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.24824784595532, createStepName=
+    'Step-1', name='Force-19', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0 #10000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.245100841109963, createStepName=
+    'Step-1', name='Force-20', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:18 #800000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.240767436463096, createStepName=
+    'Step-1', name='Force-21', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:18 #1000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.238627233689308, createStepName=
+    'Step-1', name='Force-22', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0 #100000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.238261930350088, createStepName=
+    'Step-1', name='Force-23', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0 #400000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.239463757621264, createStepName=
+    'Step-1', name='Force-24', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0 #800000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.24233759945589, createStepName=
+    'Step-1', name='Force-25', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:18 #8000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.246676604225088, createStepName=
+    'Step-1', name='Force-26', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0 #4000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.252132820933321, createStepName=
+    'Step-1', name='Force-27', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:18 #20000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.25951792378302, createStepName=
+    'Step-1', name='Force-28', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0 #20000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.267963989742066, createStepName=
+    'Step-1', name='Force-29', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0 #40000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.277123217417509, createStepName=
+    'Step-1', name='Force-30', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:18 #80000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.287246127504298, createStepName=
+    'Step-1', name='Force-31', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:19 #1 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.297456074979457, createStepName=
+    'Step-1', name='Force-32', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:19 #2 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.307806471627823, createStepName=
+    'Step-1', name='Force-33', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:2 #10 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.318222171927972, createStepName=
+    'Step-1', name='Force-34', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:2 #20 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.328664065396283, createStepName=
+    'Step-1', name='Force-35', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:2 #80 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.33936410294322, createStepName=
+    'Step-1', name='Force-36', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:19 #10 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.3500802836168, createStepName=
+    'Step-1', name='Force-37', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:2 #400 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.360840677770177, createStepName=
+    'Step-1', name='Force-38', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:2 #800 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.371384681936398, createStepName=
+    'Step-1', name='Force-39', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:2 #2000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.381629921442612, createStepName=
+    'Step-1', name='Force-40', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:2 #4000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.391179278398321, createStepName=
+    'Step-1', name='Force-41', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:19 #100 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.400265492347863, createStepName=
+    'Step-1', name='Force-42', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:2 #20000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.408449064756808, createStepName=
+    'Step-1', name='Force-43', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:2 #80000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.416347511137584, createStepName=
+    'Step-1', name='Force-44', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:2 #100000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.423649045946128, createStepName=
+    'Step-1', name='Force-45', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:19 #800 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.430882261048942, createStepName=
+    'Step-1', name='Force-46', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:19 #1000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.438068171475332, createStepName=
+    'Step-1', name='Force-47', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:2 #1000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.445464670343442, createStepName=
+    'Step-1', name='Force-48', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:2 #4000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.45404241392463, createStepName=
+    'Step-1', name='Force-49', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:2 #8000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.463752195224396, createStepName=
+    'Step-1', name='Force-50', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:19 #8000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.476243806621859, createStepName=
+    'Step-1', name='Force-51', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:2 #40000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.490836710400514, createStepName=
+    'Step-1', name='Force-52', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:19 #20000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.508172563652402, createStepName=
+    'Step-1', name='Force-53', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:3 #2 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.527737782742124, createStepName=
+    'Step-1', name='Force-54', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:3 #4 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.549137779269054, createStepName=
+    'Step-1', name='Force-55', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:19 #80000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.572329235587794, createStepName=
+    'Step-1', name='Force-56', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:19 #100000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.595953281115507, createStepName=
+    'Step-1', name='Force-57', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:3 #80 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.61932587665944, createStepName=
+    'Step-1', name='Force-58', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:3 #100 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.642125225017184, createStepName=
+    'Step-1', name='Force-59', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:3 #200 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.660415145279926, createStepName=
+    'Step-1', name='Force-60', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:19 #800000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.676431225022897, createStepName=
+    'Step-1', name='Force-61', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:19 #1000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.68570755879461, createStepName=
+    'Step-1', name='Force-62', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:3 #4000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.691175567108256, createStepName=
+    'Step-1', name='Force-63', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:3 #8000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.692583954135144, createStepName=
+    'Step-1', name='Force-64', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:19 #4000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.691347913734291, createStepName=
+    'Step-1', name='Force-65', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:19 #8000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.689249702124613, createStepName=
+    'Step-1', name='Force-66', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:19 #10000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.686788014238663, createStepName=
+    'Step-1', name='Force-67', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:3 #200000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.685364392721586, createStepName=
+    'Step-1', name='Force-68', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:3 #400000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.685079504996577, createStepName=
+    'Step-1', name='Force-69', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:19 #40000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.689800567793796, createStepName=
+    'Step-1', name='Force-70', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:3 #2000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.698545713874822, createStepName=
+    'Step-1', name='Force-71', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:20 #1 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.712479475568941, createStepName=
+    'Step-1', name='Force-72', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:3 #10000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.735213441760984, createStepName=
+    'Step-1', name='Force-73', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:3 #20000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.761672548748785, createStepName=
+    'Step-1', name='Force-74', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:20 #4 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.791457997982567, createStepName=
+    'Step-1', name='Force-75', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:20 #8 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.823501904329788, createStepName=
+    'Step-1', name='Force-76', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:4 #4 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.855944028877806, createStepName=
+    'Step-1', name='Force-77', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:4 #8 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.888058821162374, createStepName=
+    'Step-1', name='Force-78', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:4 #10 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.919304710131499, createStepName=
+    'Step-1', name='Force-79', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:20 #40 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.949147053872827, createStepName=
+    'Step-1', name='Force-80', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:4 #80 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.977242448102176, createStepName=
+    'Step-1', name='Force-81', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:4 #200 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-1.00332188912938, createStepName=
+    'Step-1', name='Force-82', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:4 #400 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-1.02698761579204, createStepName=
+    'Step-1', name='Force-83', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:20 #200 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-1.04784830990009, createStepName=
+    'Step-1', name='Force-84', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:4 #2000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-1.06499599498146, createStepName=
+    'Step-1', name='Force-85', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:4 #4000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-1.07771196217602, createStepName=
+    'Step-1', name='Force-86', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:4 #8000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-1.08589676471239, createStepName=
+    'Step-1', name='Force-87', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:20 #1000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-1.08975232787643, createStepName=
+    'Step-1', name='Force-88', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:4 #40000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-1.08964763103025, createStepName=
+    'Step-1', name='Force-89', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:4 #80000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-1.08426745590777, createStepName=
+    'Step-1', name='Force-90', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:20 #4000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-1.06972969901988, createStepName=
+    'Step-1', name='Force-91', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:4 #400000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-1.03762838195754, createStepName=
+    'Step-1', name='Force-92', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:4 #800000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.984205383582792, createStepName=
+    'Step-1', name='Force-93', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:20 #10000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.898641995180019, createStepName=
+    'Step-1', name='Force-94', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:4 #1000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.726923453615573, createStepName=
+    'Step-1', name='Force-95', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:4 #2000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.001709939, createStepName=
+    'Step-1', name='Force-96', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:4 #8000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.001709939, createStepName=
+    'Step-1', name='Force-97', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:4 #8000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=1.0542775180083, createStepName=
+    'Step-1', name='Force-98', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:4 #10000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.972170857980265, createStepName=
+    'Step-1', name='Force-99', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:4 #20000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.772791345883985, createStepName=
+    'Step-1', name='Force-100', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:4 #40000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.619956159943165, createStepName=
+    'Step-1', name='Force-101', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:20 #20000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.500724694449959, createStepName=
+    'Step-1', name='Force-102', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:5 #1 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.403391782864633, createStepName=
+    'Step-1', name='Force-103', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:20 #40000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.335500686013226, createStepName=
+    'Step-1', name='Force-104', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:5 #4 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.292708645834918, createStepName=
+    'Step-1', name='Force-105', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:20 #100000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.262351501612102, createStepName=
+    'Step-1', name='Force-106', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:5 #20 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.240735500427832, createStepName=
+    'Step-1', name='Force-107', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:5 #40 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.224230592269771, createStepName=
+    'Step-1', name='Force-108', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:20 #400000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.211636425747, createStepName=
+    'Step-1', name='Force-109', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:5 #200 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.20154591421549, createStepName=
+    'Step-1', name='Force-110', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:5 #400 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.19328782023539, createStepName=
+    'Step-1', name='Force-111', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:20 #1000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.186541813918209, createStepName=
+    'Step-1', name='Force-112', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:5 #2000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.181020172978754, createStepName=
+    'Step-1', name='Force-113', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:20 #4000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.176355094056859, createStepName=
+    'Step-1', name='Force-114', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:5 #10000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.172195746955905, createStepName=
+    'Step-1', name='Force-115', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:5 #20000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.16838180393285, createStepName=
+    'Step-1', name='Force-116', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:20 #10000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.165075861654891, createStepName=
+    'Step-1', name='Force-117', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:20 #20000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.16223734903282, createStepName=
+    'Step-1', name='Force-118', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:20 #40000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.159930415498293, createStepName=
+    'Step-1', name='Force-119', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:5 #800000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.158326107279065, createStepName=
+    'Step-1', name='Force-120', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:5 #1000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.158322532068373, createStepName=
+    'Step-1', name='Force-121', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:21 #1 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.159391478875031, createStepName=
+    'Step-1', name='Force-122', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:21 #2 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.161581817288193, createStepName=
+    'Step-1', name='Force-123', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:5 #20000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.164945439761982, createStepName=
+    'Step-1', name='Force-124', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:5 #40000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.168704985788164, createStepName=
+    'Step-1', name='Force-125', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:5 #80000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.17296616426627, createStepName=
+    'Step-1', name='Force-126', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:21 #10 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.177506652173811, createStepName=
+    'Step-1', name='Force-127', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:21 #20 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.18207982323672, createStepName=
+    'Step-1', name='Force-128', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:6 #10 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.186403416961162, createStepName=
+    'Step-1', name='Force-129', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:6 #20 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.190120449083765, createStepName=
+    'Step-1', name='Force-130', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:21 #80 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.193144933139788, createStepName=
+    'Step-1', name='Force-131', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:6 #100 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.194487116687663, createStepName=
+    'Step-1', name='Force-132', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:21 #200 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.195243371612354, createStepName=
+    'Step-1', name='Force-133', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:6 #800 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.194282265447643, createStepName=
+    'Step-1', name='Force-134', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:6 #1000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.1931735595577, createStepName=
+    'Step-1', name='Force-135', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:6 #4000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.191563337615352, createStepName=
+    'Step-1', name='Force-136', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:6 #8000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.189967093024847, createStepName=
+    'Step-1', name='Force-137', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:21 #2000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.188394050382586, createStepName=
+    'Step-1', name='Force-138', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:6 #40000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.187028346219881, createStepName=
+    'Step-1', name='Force-139', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:6 #80000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.185876047471407, createStepName=
+    'Step-1', name='Force-140', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:6 #200000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.18529257095073, createStepName=
+    'Step-1', name='Force-141', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:21 #10000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.185051093188565, createStepName=
+    'Step-1', name='Force-142', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:21 #20000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.185646460989788, createStepName=
+    'Step-1', name='Force-143', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:6 #2000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.186527077888049, createStepName=
+    'Step-1', name='Force-144', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:6 #8000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.187872843706845, createStepName=
+    'Step-1', name='Force-145', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:6 #10000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.189290820543906, createStepName=
+    'Step-1', name='Force-146', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:21 #100000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.190580581589819, createStepName=
+    'Step-1', name='Force-147', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:21 #200000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.191848360091429, createStepName=
+    'Step-1', name='Force-148', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:21 #400000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.192918594037454, createStepName=
+    'Step-1', name='Force-149', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:7 #4 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.193924896944378, createStepName=
+    'Step-1', name='Force-150', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:7 #8 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.194704171176222, createStepName=
+    'Step-1', name='Force-151', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:21 #1000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.195262167186323, createStepName=
+    'Step-1', name='Force-152', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:21 #2000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.195411666938258, createStepName=
+    'Step-1', name='Force-153', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:21 #4000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.195338921236145, createStepName=
+    'Step-1', name='Force-154', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:7 #200 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.19504342899431, createStepName=
+    'Step-1', name='Force-155', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:7 #400 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.194627567740488, createStepName=
+    'Step-1', name='Force-156', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:21 #10000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.194152004119517, createStepName=
+    'Step-1', name='Force-157', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:21 #20000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.193459301550353, createStepName=
+    'Step-1', name='Force-158', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:21 #40000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.192712474103445, createStepName=
+    'Step-1', name='Force-159', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:7 #10000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.191783704268964, createStepName=
+    'Step-1', name='Force-160', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:7 #20000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.190788469969033, createStepName=
+    'Step-1', name='Force-161', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:7 #80000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.189676102971609, createStepName=
+    'Step-1', name='Force-162', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:22 #2 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.188524151700465, createStepName=
+    'Step-1', name='Force-163', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:7 #400000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.187370141937297, createStepName=
+    'Step-1', name='Force-164', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:7 #800000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.186607863390708, createStepName=
+    'Step-1', name='Force-165', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:7 #1000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.186280232867767, createStepName=
+    'Step-1', name='Force-166', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:7 #4000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.18651590544347, createStepName=
+    'Step-1', name='Force-167', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:22 #20 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.187824735389856, createStepName=
+    'Step-1', name='Force-168', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:7 #20000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.189712462761455, createStepName=
+    'Step-1', name='Force-169', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:7 #40000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.192278958698624, createStepName=
+    'Step-1', name='Force-170', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:8 #1 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.196647122962029, createStepName=
+    'Step-1', name='Force-171', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:8 #2 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.202351168544719, createStepName=
+    'Step-1', name='Force-172', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:22 #200 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.209088770710507, createStepName=
+    'Step-1', name='Force-173', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:8 #10 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.215924994978883, createStepName=
+    'Step-1', name='Force-174', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:22 #800 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.220769343128919, createStepName=
+    'Step-1', name='Force-175', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:8 #80 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.223411020042408, createStepName=
+    'Step-1', name='Force-176', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:8 #100 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.223907750940014, createStepName=
+    'Step-1', name='Force-177', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:22 #2000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.222632917227805, createStepName=
+    'Step-1', name='Force-178', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:8 #800 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.219988475045228, createStepName=
+    'Step-1', name='Force-179', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:8 #2000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.216012157057483, createStepName=
+    'Step-1', name='Force-180', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:8 #4000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.210801987256918, createStepName=
+    'Step-1', name='Force-181', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:8 #8000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.204624657891388, createStepName=
+    'Step-1', name='Force-182', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:22 #20000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.197694568655717, createStepName=
+    'Step-1', name='Force-183', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:8 #40000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.189930477773014, createStepName=
+    'Step-1', name='Force-184', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:8 #80000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.181297088342687, createStepName=
+    'Step-1', name='Force-185', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:8 #200000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.17087787345359, createStepName=
+    'Step-1', name='Force-186', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:8 #400000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.158338828820876, createStepName=
+    'Step-1', name='Force-187', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:22 #200000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.144543714955272, createStepName=
+    'Step-1', name='Force-188', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:8 #2000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.126714253648067, createStepName=
+    'Step-1', name='Force-189', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:22 #800000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.027126, createStepName='Step-1', 
+    name='Force-190', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:8 #40000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=-0.027126, createStepName='Step-1', 
+    name='Force-191', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:8 #40000000 ]', ), )))
+mdb.models['Model-1'].ConcentratedForce(cf2=0.003139592, createStepName=
+    'Step-1', name='Force-192', region=Region(
+    nodes=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].nodes.getSequenceFromMask(
+    mask=('[#0:8 #80000000 ]', ), )))
+mdb.models['Model-1'].rootAssembly.Set(faces=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].faces, name=
+    'Set-Airfoil-Faces')
+mdb.models['Model-1'].TopologyTask(algorithm=CONDITION_BASED_OPTIMIZATION, 
+    freezeBoundaryConditionRegions=ON, name='Stiffness Optimization', region=
+    mdb.models['Model-1'].rootAssembly.sets['Set-Airfoil-Faces'])
+mdb.models['Model-1'].optimizationTasks['Stiffness Optimization'].SingleTermDesignResponse(
+    'Strain Energy', MODEL, 'STRAIN_ENERGY', None, SUM)
+#* Identifier must be specified.

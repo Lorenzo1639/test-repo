@@ -1,0 +1,1839 @@
+# -*- coding: mbcs -*-
+from part import *
+from sketch import *
+from mesh import *
+mdb.models['Model-1'].ConstrainedSketch(name='AirfoilSketch', sheetSize=200.0)
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.99, 
+    0.0006267837), point2=(0.99, 0.001046121))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.99, 0.001046121)
+    , point2=(0.99, 0.001046121))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.99, 0.001046121)
+    , point2=(0.978922534489943, 0.00295546197841269))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.978922534489943, 
+    0.00295546197841269), point2=(0.967861210269907, 0.00478705007310322))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.967861210269907, 
+    0.00478705007310322), point2=(0.956820765812945, 0.00658525632489068))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.956820765812945, 
+    0.00658525632489068), point2=(0.945800648450234, 0.00834233704424534))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.945800648450234, 
+    0.00834233704424534), point2=(0.934800326045592, 0.0100506634763991))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.934800326045592, 
+    0.0100506634763991), point2=(0.923819289141818, 0.0117027196768997))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.923819289141818, 
+    0.0117027196768997), point2=(0.912857035251692, 0.0132911031815079))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.912857035251692, 
+    0.0132911031815079), point2=(0.901913074608192, 0.0148085223562416))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.901913074608192, 
+    0.0148085223562416), point2=(0.890986920703975, 0.0162477959862874))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.890986920703975, 
+    0.0162477959862874), point2=(0.880078084890035, 0.0176018520261069))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.880078084890035, 
+    0.0176018520261069), point2=(0.869186070622196, 0.0188637261139625))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.869186070622196, 
+    0.0188637261139625), point2=(0.858279178661263, 0.0200326309045654))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.858279178661263, 
+    0.0200326309045654), point2=(0.847321161428669, 0.02112021287193))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.847321161428669, 
+    0.02112021287193), point2=(0.836312743975764, 0.0221375817817114))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.836312743975764, 
+    0.0221375817817114), point2=(0.825254761345025, 0.0230961036197237))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.825254761345025, 
+    0.0230961036197237), point2=(0.814148087053332, 0.0240074167764948))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.814148087053332, 
+    0.0240074167764948), point2=(0.802993615855542, 0.0248834418089136))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.802993615855542, 
+    0.0248834418089136), point2=(0.791792264889995, 0.0257363896516913))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.791792264889995, 
+    0.0257363896516913), point2=(0.780558400761578, 0.0265766584420165))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.780558400761578, 
+    0.0265766584420165), point2=(0.769314643281503, 0.0274075989250444))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.769314643281503, 
+    0.0274075989250444), point2=(0.758061364648082, 0.0282317987582339))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.758061364648082, 
+    0.0282317987582339), point2=(0.746798602323972, 0.0290518794850108))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.746798602323972, 
+    0.0290518794850108), point2=(0.735526699463868, 0.0298704535006014))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.735526699463868, 
+    0.0298704535006014), point2=(0.724257800175659, 0.0306892874641284))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.724257800175659, 
+    0.0306892874641284), point2=(0.712998221737122, 0.0315105679456828))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.712998221737122, 
+    0.0315105679456828), point2=(0.701744715053907, 0.0323369798442151))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.701744715053907, 
+    0.0323369798442151), point2=(0.690483886635685, 0.0331691874543811))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.690483886635685, 
+    0.0331691874543811), point2=(0.67921418823601, 0.0340048720683215))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.67921418823601, 
+    0.0340048720683215), point2=(0.66794218041885, 0.0348410502096629))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.66794218041885, 
+    0.0348410502096629), point2=(0.656678522224525, 0.0356744322753592))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.656678522224525, 
+    0.0356744322753592), point2=(0.645423233250148, 0.036502528272929))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.645423233250148, 
+    0.036502528272929), point2=(0.634176186491289, 0.0373228707054802))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.634176186491289, 
+    0.0373228707054802), point2=(0.622937255588324, 0.0381330035788915))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.622937255588324, 
+    0.0381330035788915), point2=(0.611706315550436, 0.0389304822850878))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.611706315550436, 
+    0.0389304822850878), point2=(0.600483242230912, 0.0397128735782906))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.600483242230912, 
+    0.0397128735782906), point2=(0.58926791222038, 0.0404777555211081))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.58926791222038, 
+    0.0404777555211081), point2=(0.578060202748193, 0.0412227174302977))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.578060202748193, 
+    0.0412227174302977), point2=(0.56685999142202, 0.0419453598326237))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.56685999142202, 
+    0.0419453598326237), point2=(0.555667156293099, 0.0426432943979589))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.555667156293099, 
+    0.0426432943979589), point2=(0.544481575490712, 0.0433141438985458))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.544481575490712, 
+    0.0433141438985458), point2=(0.533303127100276, 0.0439555421488011))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.533303127100276, 
+    0.0439555421488011), point2=(0.522131688963667, 0.0445651339460662))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.522131688963667, 
+    0.0445651339460662), point2=(0.510967138454281, 0.0451405750074527))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.510967138454281, 
+    0.0451405750074527), point2=(0.499809352243409, 0.0456795319005448))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.499809352243409, 
+    0.0456795319005448), point2=(0.48865747231281, 0.0461797244412192))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.48865747231281, 
+    0.0461797244412192), point2=(0.477473844783221, 0.0466446401470511))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.477473844783221, 
+    0.0466446401470511), point2=(0.466237088600045, 0.0470876780367798))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.466237088600045, 
+    0.0470876780367798), point2=(0.454953618338958, 0.0475230548400073))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.454953618338958, 
+    0.0475230548400073), point2=(0.44370006154501, 0.0479625756948008))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.44370006154501, 
+    0.0479625756948008), point2=(0.432497751776822, 0.0484199920875341))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.432497751776822, 
+    0.0484199920875341), point2=(0.421319835495315, 0.0489092682694314))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.421319835495315, 
+    0.0489092682694314), point2=(0.410054349965272, 0.0494245543213842))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.410054349965272, 
+    0.0494245543213842), point2=(0.398841617227446, 0.0499287644445164))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.398841617227446, 
+    0.0499287644445164), point2=(0.387737527814836, 0.0503888166771877))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.387737527814836, 
+    0.0503888166771877), point2=(0.376739049601971, 0.0507760415385538))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.376739049601971, 
+    0.0507760415385538), point2=(0.365842931288639, 0.0510634045007143))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.365842931288639, 
+    0.0510634045007143), point2=(0.354967846536149, 0.0512341601752934))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.354967846536149, 
+    0.0512341601752934), point2=(0.344053100268654, 0.0512948261942015))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.344053100268654, 
+    0.0512948261942015), point2=(0.33309820041474, 0.0512554606059376))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.33309820041474, 
+    0.0512554606059376), point2=(0.322102700726195, 0.0511263447755457))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.322102700726195, 
+    0.0511263447755457), point2=(0.311066190404915, 0.0509179923429717))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.311066190404915, 
+    0.0509179923429717), point2=(0.299988283130503, 0.0506411572545883))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.299988283130503, 
+    0.0506411572545883), point2=(0.288868605352483, 0.0503068410567429))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.288868605352483, 
+    0.0503068410567429), point2=(0.277706776650433, 0.049926299407732))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.277706776650433, 
+    0.049926299407732), point2=(0.266502417379919, 0.0495110492729833))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.266502417379919, 
+    0.0495110492729833), point2=(0.255255126993222, 0.0490728752662114))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.255255126993222, 
+    0.0490728752662114), point2=(0.244001504270927, 0.0486221305883292))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.244001504270927, 
+    0.0486221305883292), point2=(0.23279222372902, 0.0481537915406427))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.23279222372902, 
+    0.0481537915406427), point2=(0.22162827024065, 0.0476559789984123))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.22162827024065, 
+    0.0476559789984123), point2=(0.21051032913312, 0.0471170729035177))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.21051032913312, 
+    0.0471170729035177), point2=(0.199439081826324, 0.0465257191693933))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.199439081826324, 
+    0.0465257191693933), point2=(0.188415185235267, 0.0458708218244316))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.188415185235267, 
+    0.0458708218244316), point2=(0.177439271354036, 0.0451415360652339))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.177439271354036, 
+    0.0451415360652339), point2=(0.166511930674384, 0.0443272600967275))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.166511930674384, 
+    0.0443272600967275), point2=(0.155633704761455, 0.0434176268879641))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.155633704761455, 
+    0.0434176268879641), point2=(0.1448050642414, 0.0424024938006258))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.1448050642414, 
+    0.0424024938006258), point2=(0.134026407082326, 0.0412719325953194))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.134026407082326, 
+    0.0412719325953194), point2=(0.123298034669997, 0.0400162158884792))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.123298034669997, 
+    0.0400162158884792), point2=(0.112620143151444, 0.0386258030276093))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.112620143151444, 
+    0.0386258030276093), point2=(0.101992804785973, 0.0370913226009778))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.101992804785973, 
+    0.0370913226009778), point2=(0.0914698862799379, 0.0354083056431646))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(
+    0.0914698862799379, 0.0354083056431646), point2=(0.0811502395548527, 
+    0.0335585178494445))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(
+    0.0811502395548527, 0.0335585178494445), point2=(0.071047225523772, 
+    0.0315059308365974))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.071047225523772, 
+    0.0315059308365974), point2=(0.0611712142902726, 0.0292179685206197))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(
+    0.0611712142902726, 0.0292179685206197), point2=(0.0515304599293776, 
+    0.0266651696025459))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(
+    0.0515304599293776, 0.0266651696025459), point2=(0.0421307157109785, 
+    0.0238205320498636))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(
+    0.0421307157109785, 0.0238205320498636), point2=(0.0329748997412969, 
+    0.0206587135625685))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(
+    0.0329748997412969, 0.0206587135625685), point2=(0.0240629880434331, 
+    0.0171551171574675))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(
+    0.0240629880434331, 0.0171551171574675), point2=(0.0156859194504396, 
+    0.0134117654952598))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(
+    0.0156859194504396, 0.0134117654952598), point2=(0.00968127800962985, 
+    0.010132243005965))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(
+    0.00968127800962985, 0.010132243005965), point2=(0.00538163703067453, 
+    0.00699841986330984))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(
+    0.00538163703067453, 0.00699841986330984), point2=(0.0021510113772107, 
+    0.00376560635769267))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(
+    0.0021510113772107, 0.00376560635769267), point2=(-1.56044e-08, 
+    4.728764e-05))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(-1.56044e-08, 
+    4.728764e-05), point2=(-1.56044e-08, 4.728764e-05))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(-1.56044e-08, 
+    4.728764e-05), point2=(0.00102050959526343, -0.00166534688692357))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(
+    0.00102050959526343, -0.00166534688692357), point2=(0.00322357953781953, 
+    -0.00324756327604582))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(
+    0.00322357953781953, -0.00324756327604582), point2=(0.00762673320170816, 
+    -0.00532742997218585))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(
+    0.00762673320170816, -0.00532742997218585), point2=(0.0133923680315974, 
+    -0.00717614782310777))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(
+    0.0133923680315974, -0.00717614782310777), point2=(0.0205301923066693, 
+    -0.0086140957195072))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(
+    0.0205301923066693, -0.0086140957195072), point2=(0.0298477564733408, 
+    -0.00979797944467623))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(
+    0.0298477564733408, -0.00979797944467623), point2=(0.0401894908389703, 
+    -0.0108283600698195))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(
+    0.0401894908389703, -0.0108283600698195), point2=(0.0506005782254427, 
+    -0.0116579227172292))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(
+    0.0506005782254427, -0.0116579227172292), point2=(0.061084363639151, 
+    -0.0123038166543548))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.061084363639151, 
+    -0.0123038166543548), point2=(0.0716438418319054, -0.0127837994119292))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(
+    0.0716438418319054, -0.0127837994119292), point2=(0.0822817117570609, 
+    -0.0131163396489397))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(
+    0.0822817117570609, -0.0131163396489397), point2=(0.0930004548244912, 
+    -0.0133207087739116))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(
+    0.0930004548244912, -0.0133207087739116), point2=(0.103802394766401, 
+    -0.0134170615629796))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.103802394766401, 
+    -0.0134170615629796), point2=(0.114689762208885, -0.013426509718192))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.114689762208885, 
+    -0.013426509718192), point2=(0.125652741092595, -0.0133706537245115))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.125652741092595, 
+    -0.0133706537245115), point2=(0.136635532407971, -0.0132617768894495))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.136635532407971, 
+    -0.0132617768894495), point2=(0.147630700047225, -0.0131032831101465))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.147630700047225, 
+    -0.0131032831101465), point2=(0.158638114178101, -0.0128982787926096))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.158638114178101, 
+    -0.0128982787926096), point2=(0.169657642326004, -0.012649890664759))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.169657642326004, 
+    -0.012649890664759), point2=(0.180689151204265, -0.0123612658894638))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.180689151204265, 
+    -0.0123612658894638), point2=(0.191732504492278, -0.0120355722617386))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.191732504492278, 
+    -0.0120355722617386), point2=(0.202787565933094, -0.0116759982652051))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.202787565933094, 
+    -0.0116759982652051), point2=(0.213854199332058, -0.0112857531851713))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.213854199332058, 
+    -0.0112857531851713), point2=(0.224932267178125, -0.0108680672805232))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.224932267178125, 
+    -0.0108680672805232), point2=(0.23602163338539, -0.0104261918093182))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.23602163338539, 
+    -0.0104261918093182), point2=(0.24712216271226, -0.00996339916702783))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.24712216271226, 
+    -0.00996339916702783), point2=(0.258233721104791, -0.00948298300072034))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.258233721104791, 
+    -0.00948298300072034), point2=(0.269356175998299, -0.00898825833203177))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.269356175998299, 
+    -0.00898825833203177), point2=(0.280489396576266, -0.00848256169149553))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.280489396576266, 
+    -0.00848256169149553), point2=(0.291632648673356, -0.00796923188264161))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.291632648673356, 
+    -0.00796923188264161), point2=(0.302784757200758, -0.00745128666171436))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.302784757200758, 
+    -0.00745128666171436), point2=(0.313943415535152, -0.00693164632042079))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.313943415535152, 
+    -0.00693164632042079), point2=(0.325093817386475, -0.00641382152686148))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.325093817386475, 
+    -0.00641382152686148), point2=(0.336233846722547, -0.00590072259924312))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.336233846722547, 
+    -0.00590072259924312), point2=(0.347363840797246, -0.0053951304596518))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.347363840797246, 
+    -0.0053951304596518), point2=(0.358484136857762, -0.00489981093595505))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.358484136857762, 
+    -0.00489981093595505), point2=(0.369595071731582, -0.00441751489094717))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.369595071731582, 
+    -0.00441751489094717), point2=(0.38069698220021, -0.00395097832104822))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.38069698220021, 
+    -0.00395097832104822), point2=(0.391790205027789, -0.00350292247666992))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.391790205027789, 
+    -0.00350292247666992), point2=(0.402876336510285, -0.00307596580292237))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.402876336510285, 
+    -0.00307596580292237), point2=(0.413970648160674, -0.0026700207965886))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.413970648160674, 
+    -0.0026700207965886), point2=(0.425077371473282, -0.00228217226512151))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.425077371473282, 
+    -0.00228217226512151), point2=(0.4361962783472, -0.00190939375422952))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.4361962783472, 
+    -0.00190939375422952), point2=(0.447327140209526, -0.00154864058271715))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.447327140209526, 
+    -0.00154864058271715), point2=(0.458469728194233, -0.00119684972034352))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.458469728194233, 
+    -0.00119684972034352), point2=(0.469623813285497, -0.000850939662324959))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.469623813285497, 
+    -0.000850939662324959), point2=(0.480789166466201, -0.000507810298054724))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.480789166466201, 
+    -0.000507810298054724), point2=(0.491954363111132, -0.00016468788168502))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.491954363111132, 
+    -0.00016468788168502), point2=(0.503107948478578, 0.000181200424605977))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.503107948478578, 
+    0.000181200424605977), point2=(0.514260916674807, 0.00053229606056347))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.514260916674807, 
+    0.00053229606056347), point2=(0.52542539098835, 0.000886722260197827))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.52542539098835, 
+    0.000886722260197827), point2=(0.536586325961092, 0.00124056349394693))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.536586325961092, 
+    0.00124056349394693), point2=(0.547734738482402, 0.00159010100107963))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.547734738482402, 
+    0.00159010100107963), point2=(0.558870825548803, 0.0019319293425563))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.558870825548803, 
+    0.0019319293425563), point2=(0.569994782844658, 0.0022626654958593))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.569994782844658, 
+    0.0022626654958593), point2=(0.581106805591504, 0.00257894869723857))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.581106805591504, 
+    0.00257894869723857), point2=(0.592207088731172, 0.00287744026006639))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.592207088731172, 
+    0.00287744026006639), point2=(0.60329582678474, 0.00315482338159907))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.60329582678474, 
+    0.00315482338159907), point2=(0.614373214714586, 0.00340780297107194))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.614373214714586, 
+    0.00340780297107194), point2=(0.625439448473231, 0.00363310545660382))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.625439448473231, 
+    0.00363310545660382), point2=(0.636507512048687, 0.00382871472350821))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.636507512048687, 
+    0.00382871472350821), point2=(0.647598822295776, 0.00399889094560097))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.647598822295776, 
+    0.00399889094560097), point2=(0.658713656218631, 0.00414986235101465))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.658713656218631, 
+    0.00414986235101465), point2=(0.669851954806638, 0.00428793279723927))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.669851954806638, 
+    0.00428793279723927), point2=(0.681013660517293, 0.00441948503868981))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.681013660517293, 
+    0.00441948503868981), point2=(0.692177758812287, 0.00455073178221121))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.692177758812287, 
+    0.00455073178221121), point2=(0.703318630959606, 0.00468783750066572))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.703318630959606, 
+    0.00468783750066572), point2=(0.71443615691219, 0.00483719241019835))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.71443615691219, 
+    0.00483719241019835), point2=(0.725535184565688, 0.00500498912797204))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.725535184565688, 
+    0.00500498912797204), point2=(0.736654492735142, 0.00519165491125115))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.736654492735142, 
+    0.00519165491125115), point2=(0.747802740504211, 0.00538969604897331))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.747802740504211, 
+    0.00538969604897331), point2=(0.75896678538456, 0.00559069626868171))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.75896678538456, 
+    0.00559069626868171), point2=(0.770104370088706, 0.00578566024764877))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.770104370088706, 
+    0.00578566024764877), point2=(0.781212762602293, 0.00596640288322925))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.781212762602293, 
+    0.00596640288322925), point2=(0.792292354331502, 0.00612492306885908))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.792292354331502, 
+    0.00612492306885908), point2=(0.803343532813142, 0.00625334487301805))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.803343532813142, 
+    0.00625334487301805), point2=(0.814366686706119, 0.00634391510769306))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.814366686706119, 
+    0.00634391510769306), point2=(0.825365927617221, 0.00638932970066635))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.825365927617221, 
+    0.00638932970066635), point2=(0.836346416959598, 0.00638400788051063))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.836346416959598, 
+    0.00638400788051063), point2=(0.847307787856133, 0.00632292726830642))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.847307787856133, 
+    0.00632292726830642), point2=(0.85824964076507, 0.00620111813914567))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.85824964076507, 
+    0.00620111813914567), point2=(0.869171584877795, 0.00601366263908679))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.869171584877795, 
+    0.00601366263908679), point2=(0.880074322278248, 0.00575568850782702))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.880074322278248, 
+    0.00575568850782702), point2=(0.890984043823031, 0.00542480492108606))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.890984043823031, 
+    0.00542480492108606), point2=(0.901912102642603, 0.00502526869463847))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.901912102642603, 
+    0.00502526869463847), point2=(0.912858533678224, 0.00456243271479367))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.912858533678224, 
+    0.00456243271479367), point2=(0.923823364430947, 0.00404171153879809))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.923823364430947, 
+    0.00404171153879809), point2=(0.934806616974659, 0.0034685823263692))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.934806616974659, 
+    0.0034685823263692), point2=(0.945808312198794, 0.00284858554985834))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.945808312198794, 
+    0.00284858554985834), point2=(0.956828471820437, 0.00218732572676861))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.956828471820437, 
+    0.00218732572676861), point2=(0.96786711752409, 0.00149047230734381))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.96786711752409, 
+    0.00149047230734381), point2=(0.978924275496887, 0.000763760233989097))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.978924275496887, 
+    0.000763760233989097), point2=(0.99, -2.222224e-06))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.99, 
+    -2.222224e-06), point2=(0.99, -2.222224e-06))
+mdb.models['Model-1'].sketches['AirfoilSketch'].Line(point1=(0.99, 
+    -2.222224e-06), point2=(0.99, 0.0006267837))
+mdb.models['Model-1'].Part(dimensionality=TWO_D_PLANAR, name='Airfoil', type=
+    DEFORMABLE_BODY)
+mdb.models['Model-1'].parts['Airfoil'].BaseShell(sketch=
+    mdb.models['Model-1'].sketches['AirfoilSketch'])
+mdb.models['Model-1'].Material(name='PLA')
+mdb.models['Model-1'].materials['PLA'].Density(table=((1240.0, ), ))
+mdb.models['Model-1'].materials['PLA'].Elastic(table=((2500000000.0, 0.3), ))
+mdb.models['Model-1'].HomogeneousSolidSection(material='PLA', name=
+    'Section-PLA', thickness=None)
+mdb.models['Model-1'].parts['Airfoil'].SectionAssignment(region=(
+    mdb.models['Model-1'].parts['Airfoil'].faces, ), sectionName='Section-PLA')
+mdb.models['Model-1'].ConstrainedSketch(name='__hole__', sheetSize=200.0)
+mdb.models['Model-1'].sketches['__hole__'].CircleByCenterPerimeter(center=(
+    0.19799998751648, 0.0156235570132463), point1=(0.207899987672524, 
+    0.0156235570132463))
+mdb.models['Model-1'].parts['Airfoil'].Cut(sketch=
+    mdb.models['Model-1'].sketches['__hole__'])
+del mdb.models['Model-1'].sketches['__hole__']
+mdb.models['Model-1'].ConstrainedSketch(name='__hole__', sheetSize=200.0)
+mdb.models['Model-1'].sketches['__hole__'].CircleByCenterPerimeter(center=(
+    0.39599999063736, 0.0156235570132463), point1=(0.405899990793404, 
+    0.0156235570132463))
+mdb.models['Model-1'].parts['Airfoil'].Cut(sketch=
+    mdb.models['Model-1'].sketches['__hole__'])
+del mdb.models['Model-1'].sketches['__hole__']
+mdb.models['Model-1'].rootAssembly.DatumCsysByDefault(CARTESIAN)
+del mdb.models['Model-1'].rootAssembly.instances['Airfoil-1']
+mdb.models['Model-1'].rootAssembly.Instance(dependent=OFF, name='Airfoil-1', 
+    part=mdb.models['Model-1'].parts['Airfoil'])
+mdb.models['Model-1'].rootAssembly.Set(faces=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].faces, name=
+    'TopOptSet')
+mdb.models['Model-1'].StaticStep(description=
+    'Step statico generale per analisi quasi-statica.', name='Step-1', nlgeom=
+    OFF, previous='Initial')
+mdb.models['Model-1'].rootAssembly.seedPartInstance(deviationFactor=0.1, 
+    minSizeFactor=0.1, regions=(
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'], ), size=0.005)
+mdb.models['Model-1'].rootAssembly.setElementType(elemTypes=(ElemType(
+    elemCode=CPS4R, elemLibrary=STANDARD), ), regions=(
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].faces, ))
+mdb.models['Model-1'].rootAssembly.generateMesh(regions=(
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'], ))
+mdb.models['Model-1'].DisplacementBC(createStepName='Initial', name='BC-Hole1', 
+    region=Region(
+    edges=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#2 ]', ), )), u1=0.0, u2=0.0, ur3=0.0)
+mdb.models['Model-1'].DisplacementBC(createStepName='Initial', name='BC-Hole2', 
+    region=Region(
+    edges=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#1 ]', ), )), u1=0.0, u2=0.0, ur3=0.0)
+from load import *
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-0', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#8 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.011300744, name=
+    'Load-Segment-0', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-0'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-1', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#10 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.02574108, name=
+    'Load-Segment-1', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-1'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-2', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#10 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.00542873238557835, name=
+    'Load-Segment-2', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-2'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-3', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#20 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=4.59598680243268e-05, name=
+    'Load-Segment-3', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-3'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-4', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#40 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.0283646121453593, name=
+    'Load-Segment-4', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-4'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-5', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#80 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.0543418739783302, name=
+    'Load-Segment-5', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-5'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-6', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#100 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.0791838836491853, name=
+    'Load-Segment-6', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-6'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-7', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#200 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.103205110618898, name=
+    'Load-Segment-7', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-7'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-8', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#400 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.126172478616573, name=
+    'Load-Segment-8', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-8'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-9', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#800 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.147993231242885, name=
+    'Load-Segment-9', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-9'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-10', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#1000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.168578898468075, name=
+    'Load-Segment-10', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-10'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-11', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#2000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.18765390089543, name=
+    'Load-Segment-11', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-11'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-12', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#4000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.204715282426639, name=
+    'Load-Segment-12', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-12'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-13', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#8000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.219453150558458, name=
+    'Load-Segment-13', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-13'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-14', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#10000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.231763555329196, name=
+    'Load-Segment-14', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-14'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-15', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#20000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.241087757584827, name=
+    'Load-Segment-15', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-15'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-16', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#40000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.24668235476987, name=
+    'Load-Segment-16', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-16'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-17', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#80000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.248362196021283, name=
+    'Load-Segment-17', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-17'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-18', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#100000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.246674343532641, name=
+    'Load-Segment-18', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-18'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-19', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#200000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.24293413878653, name=
+    'Load-Segment-19', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-19'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-20', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#400000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.239697335076202, name=
+    'Load-Segment-20', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-20'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-21', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#800000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.238444582019698, name=
+    'Load-Segment-21', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-21'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-22', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#1000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.238862843985676, name=
+    'Load-Segment-22', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-22'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-23', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#2000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.240900678538577, name=
+    'Load-Segment-23', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-23'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-24', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#4000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.244507101840489, name=
+    'Load-Segment-24', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-24'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-25', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#8000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.249404712579204, name=
+    'Load-Segment-25', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-25'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-26', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#10000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.25582537235817, name=
+    'Load-Segment-26', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-26'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-27', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#20000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.263740956762543, name=
+    'Load-Segment-27', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-27'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-28', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#40000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.272543603579787, name=
+    'Load-Segment-28', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-28'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-29', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#80000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.282184672460903, name=
+    'Load-Segment-29', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-29'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-30', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0 #1 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.292351101241878, name=
+    'Load-Segment-30', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-30'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-31', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0 #2 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.30263127330364, name=
+    'Load-Segment-31', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-31'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-32', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0 #4 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.313014321777898, name=
+    'Load-Segment-32', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-32'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-33', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0 #8 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.323443118662128, name=
+    'Load-Segment-33', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-33'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-34', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0 #10 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.334014084169752, name=
+    'Load-Segment-34', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-34'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-35', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0 #20 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.34472219328001, name=
+    'Load-Segment-35', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-35'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-36', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0 #40 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.355460480693488, name=
+    'Load-Segment-36', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-36'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-37', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0 #80 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.366112679853287, name=
+    'Load-Segment-37', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-37'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-38', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0 #100 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.376507301689505, name=
+    'Load-Segment-38', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-38'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-39', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0 #200 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.386404599920467, name=
+    'Load-Segment-39', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-39'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-40', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0 #400 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.395722385373092, name=
+    'Load-Segment-40', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-40'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-41', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0 #800 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.404357278552336, name=
+    'Load-Segment-41', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-41'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-42', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0 #1000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.412398287947196, name=
+    'Load-Segment-42', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-42'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-43', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0 #2000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.419998278541856, name=
+    'Load-Segment-43', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-43'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-44', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0 #4000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.427265653497535, name=
+    'Load-Segment-44', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-44'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-45', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0 #8000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.434475216262137, name=
+    'Load-Segment-45', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-45'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-46', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0 #10000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.441766420909387, name=
+    'Load-Segment-46', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-46'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-47', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0 #20000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.449753542134036, name=
+    'Load-Segment-47', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-47'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-48', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0 #40000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.458897304574513, name=
+    'Load-Segment-48', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-48'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-49', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0 #80000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.469998000923127, name=
+    'Load-Segment-49', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-49'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-50', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0 #100000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.483540258511187, name=
+    'Load-Segment-50', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-50'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-51', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0 #200000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.499504637026458, name=
+    'Load-Segment-51', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-51'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-52', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0 #400000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.517955173197263, name=
+    'Load-Segment-52', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-52'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-53', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0 #800000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.538437781005589, name=
+    'Load-Segment-53', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-53'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-54', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0 #1000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.560733507428424, name=
+    'Load-Segment-54', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-54'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-55', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0 #2000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.58414125835165, name=
+    'Load-Segment-55', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-55'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-56', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0 #4000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.607639578887474, name=
+    'Load-Segment-56', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-56'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-57', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0 #8000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.630725550838312, name=
+    'Load-Segment-57', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-57'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-58', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0 #10000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.651270185148555, name=
+    'Load-Segment-58', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-58'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-59', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0 #20000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.668423185151412, name=
+    'Load-Segment-59', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-59'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-60', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0 #40000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.681069391908753, name=
+    'Load-Segment-60', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-60'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-61', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0 #80000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.688441562951433, name=
+    'Load-Segment-61', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-61'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-62', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:2 #1 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.6918797606217, name=
+    'Load-Segment-62', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-62'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-63', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:2 #2 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.691965933934717, name=
+    'Load-Segment-63', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-63'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-64', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:2 #4 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.690298807929452, name=
+    'Load-Segment-64', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-64'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-65', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:2 #8 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.688018858181638, name=
+    'Load-Segment-65', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-65'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-66', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:2 #10 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.686076203480124, name=
+    'Load-Segment-66', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-66'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-67', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:2 #20 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.685221948859081, name=
+    'Load-Segment-67', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-67'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-68', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:2 #40 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.687440036395186, name=
+    'Load-Segment-68', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-68'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-69', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:2 #80 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.694173140834309, name=
+    'Load-Segment-69', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-69'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-70', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:2 #100 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.705512594721881, name=
+    'Load-Segment-70', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-70'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-71', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:2 #200 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.723846458664962, name=
+    'Load-Segment-71', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-71'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-72', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:2 #400 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.748442995254884, name=
+    'Load-Segment-72', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-72'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-73', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:2 #800 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.776565273365676, name=
+    'Load-Segment-73', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-73'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-74', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:2 #1000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.807479951156178, name=
+    'Load-Segment-74', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-74'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-75', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:2 #2000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.839722966603797, name=
+    'Load-Segment-75', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-75'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-76', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:2 #4000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.87200142502009, name=
+    'Load-Segment-76', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-76'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-77', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:2 #8000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.903681765646936, name=
+    'Load-Segment-77', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-77'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-78', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:2 #10000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.934225882002163, name=
+    'Load-Segment-78', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-78'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-79', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:2 #20000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.963194750987502, name=
+    'Load-Segment-79', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-79'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-80', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:2 #40000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.990282168615777, name=
+    'Load-Segment-80', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-80'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-81', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:2 #80000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=1.01515475246071, name=
+    'Load-Segment-81', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-81'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-82', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:2 #100000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=1.03741796284606, name=
+    'Load-Segment-82', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-82'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-83', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:2 #200000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=1.05642215244078, name=
+    'Load-Segment-83', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-83'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-84', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:2 #400000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=1.07135397857874, name=
+    'Load-Segment-84', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-84'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-85', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:2 #800000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=1.08180436344421, name=
+    'Load-Segment-85', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-85'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-86', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:2 #1000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=1.08782454629441, name=
+    'Load-Segment-86', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-86'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-87', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:2 #2000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=1.08969997945334, name=
+    'Load-Segment-87', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-87'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-88', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:2 #4000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=1.08695754346901, name=
+    'Load-Segment-88', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-88'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-89', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:2 #8000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=1.07699857746382, name=
+    'Load-Segment-89', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-89'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-90', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:2 #10000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=1.05367904048871, name=
+    'Load-Segment-90', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-90'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-91', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:2 #20000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=1.01091688277016, name=
+    'Load-Segment-91', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-91'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-92', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:2 #40000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.941423689381405, name=
+    'Load-Segment-92', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-92'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-93', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:2 #80000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.812782724397796, name=
+    'Load-Segment-93', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-93'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-94', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:3 #1 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.362606757307786, name=
+    'Load-Segment-94', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-94'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-95', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:3 #2 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=-0.001709939, name=
+    'Load-Segment-95', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-95'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-96', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:3 #2 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.527993728504151, name=
+    'Load-Segment-96', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-96'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-97', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:3 #4 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=1.01322418799428, name=
+    'Load-Segment-97', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-97'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-98', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:3 #8 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.872481101932125, name=
+    'Load-Segment-98', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-98'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-99', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:3 #10 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.696373752913575, name=
+    'Load-Segment-99', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-99'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-100', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:3 #20 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.560340427196562, name=
+    'Load-Segment-100', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-100'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-101', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:3 #40 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.452058238657296, name=
+    'Load-Segment-101', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-101'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-102', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:3 #80 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.369446234438929, name=
+    'Load-Segment-102', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-102'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-103', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:3 #100 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.314104665924071, name=
+    'Load-Segment-103', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-103'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-104', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:3 #200 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.27753007372351, name=
+    'Load-Segment-104', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-104'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-105', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:3 #400 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.251543501019967, name=
+    'Load-Segment-105', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-105'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-106', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:3 #800 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.232483046348802, name=
+    'Load-Segment-106', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-106'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-107', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:3 #1000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.217933509008385, name=
+    'Load-Segment-107', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-107'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-108', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:3 #2000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.206591169981245, name=
+    'Load-Segment-108', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-108'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-109', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:3 #4000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.19741686722544, name=
+    'Load-Segment-109', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-109'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-110', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:3 #8000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.189914817076799, name=
+    'Load-Segment-110', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-110'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-111', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:3 #10000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.183780993448481, name=
+    'Load-Segment-111', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-111'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-112', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:3 #20000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.178687633517806, name=
+    'Load-Segment-112', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-112'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-113', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:3 #40000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.174275420506382, name=
+    'Load-Segment-113', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-113'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-114', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:3 #80000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.170288775444378, name=
+    'Load-Segment-114', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-114'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-115', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:3 #100000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.166728832793871, name=
+    'Load-Segment-115', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-115'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-116', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:3 #200000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.163656605343856, name=
+    'Load-Segment-116', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-116'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-117', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:3 #400000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.161083882265556, name=
+    'Load-Segment-117', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-117'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-118', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:3 #800000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.159128261388679, name=
+    'Load-Segment-118', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-118'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-119', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:3 #1000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.158324319673719, name=
+    'Load-Segment-119', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-119'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-120', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:3 #2000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.158857005471702, name=
+    'Load-Segment-120', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-120'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-121', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:3 #4000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.160486648081612, name=
+    'Load-Segment-121', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-121'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-122', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:3 #8000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.163263628525088, name=
+    'Load-Segment-122', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-122'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-123', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:3 #10000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.166825212775073, name=
+    'Load-Segment-123', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-123'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-124', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:3 #20000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.170835575027217, name=
+    'Load-Segment-124', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-124'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-125', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:3 #40000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.17523640822004, name=
+    'Load-Segment-125', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-125'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-126', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:3 #80000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.179793237705266, name=
+    'Load-Segment-126', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-126'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-127', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:4 #1 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.184241620098941, name=
+    'Load-Segment-127', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-127'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-128', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:4 #2 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.188261933022463, name=
+    'Load-Segment-128', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-128'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-129', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:4 #4 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.191632691111776, name=
+    'Load-Segment-129', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-129'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-130', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:4 #8 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.193816024913726, name=
+    'Load-Segment-130', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-130'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-131', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:4 #10 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.194865244150009, name=
+    'Load-Segment-131', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-131'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-132', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:4 #20 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.194762818529998, name=
+    'Load-Segment-132', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-132'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-133', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:4 #40 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.193727912502672, name=
+    'Load-Segment-133', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-133'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-134', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:4 #80 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.192368448586526, name=
+    'Load-Segment-134', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-134'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-135', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:4 #100 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.190765215320099, name=
+    'Load-Segment-135', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-135'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-136', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:4 #200 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.189180571703717, name=
+    'Load-Segment-136', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-136'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-137', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:4 #400 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.187711198301233, name=
+    'Load-Segment-137', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-137'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-138', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:4 #800 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.186452196845644, name=
+    'Load-Segment-138', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-138'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-139', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:4 #1000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.185584309211069, name=
+    'Load-Segment-139', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-139'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-140', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:4 #2000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.185171832069648, name=
+    'Load-Segment-140', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-140'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-141', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:4 #4000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.185348777089177, name=
+    'Load-Segment-141', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-141'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-142', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:4 #8000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.186086769438919, name=
+    'Load-Segment-142', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-142'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-143', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:4 #10000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.187199960797447, name=
+    'Load-Segment-143', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-143'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-144', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:4 #20000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.188581832125376, name=
+    'Load-Segment-144', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-144'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-145', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:4 #40000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.189935701066863, name=
+    'Load-Segment-145', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-145'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-146', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:4 #80000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.191214470840624, name=
+    'Load-Segment-146', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-146'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-147', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:4 #100000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.192383477064442, name=
+    'Load-Segment-147', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-147'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-148', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:4 #200000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.193421745490916, name=
+    'Load-Segment-148', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-148'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-149', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:4 #400000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.1943145340603, name=
+    'Load-Segment-149', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-149'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-150', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:4 #800000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.194983169181272, name=
+    'Load-Segment-150', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-150'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-151', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:4 #1000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.195336917062291, name=
+    'Load-Segment-151', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-151'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-152', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:4 #2000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.195375294087202, name=
+    'Load-Segment-152', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-152'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-153', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:4 #4000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.195191175115228, name=
+    'Load-Segment-153', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-153'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-154', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:4 #8000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.194835498367399, name=
+    'Load-Segment-154', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-154'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-155', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:4 #10000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.194389785930003, name=
+    'Load-Segment-155', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-155'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-156', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:4 #20000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.193805652834935, name=
+    'Load-Segment-156', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-156'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-157', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:4 #40000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.193085887826899, name=
+    'Load-Segment-157', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-157'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-158', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:4 #80000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.192248089186204, name=
+    'Load-Segment-158', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-158'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-159', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:5 #1 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.191286087118999, name=
+    'Load-Segment-159', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-159'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-160', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:5 #2 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.190232286470321, name=
+    'Load-Segment-160', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-160'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-161', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:5 #4 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.189100127336037, name=
+    'Load-Segment-161', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-161'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-162', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:5 #8 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.187947146818881, name=
+    'Load-Segment-162', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-162'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-163', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:5 #10 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.186989002664003, name=
+    'Load-Segment-163', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-163'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-164', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:5 #20 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.186444048129238, name=
+    'Load-Segment-164', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-164'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-165', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:5 #40 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.186398069155618, name=
+    'Load-Segment-165', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-165'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-166', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:5 #80 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.187170320416663, name=
+    'Load-Segment-166', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-166'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-167', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:5 #100 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.188768599075655, name=
+    'Load-Segment-167', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-167'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-168', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:5 #200 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.19099571073004, name=
+    'Load-Segment-168', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-168'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-169', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:5 #400 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.194463040830327, name=
+    'Load-Segment-169', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-169'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-170', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:5 #800 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.199499145753374, name=
+    'Load-Segment-170', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-170'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-171', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:5 #1000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.205719969627613, name=
+    'Load-Segment-171', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-171'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-172', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:5 #2000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.212506882844695, name=
+    'Load-Segment-172', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-172'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-173', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:5 #4000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.218347169053901, name=
+    'Load-Segment-173', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-173'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-174', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:5 #8000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.222090181585663, name=
+    'Load-Segment-174', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-174'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-175', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:5 #10000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.223659385491211, name=
+    'Load-Segment-175', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-175'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-176', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:5 #20000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.22327033408391, name=
+    'Load-Segment-176', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-176'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-177', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:5 #40000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.221310696136517, name=
+    'Load-Segment-177', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-177'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-178', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:5 #80000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.218000316051355, name=
+    'Load-Segment-178', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-178'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-179', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:5 #100000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.2134070721572, name=
+    'Load-Segment-179', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-179'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-180', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:5 #200000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.207713322574153, name=
+    'Load-Segment-180', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-180'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-181', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:5 #400000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.201159613273552, name=
+    'Load-Segment-181', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-181'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-182', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:5 #800000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.193812523214365, name=
+    'Load-Segment-182', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-182'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-183', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:5 #1000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.18561378305785, name=
+    'Load-Segment-183', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-183'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-184', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:5 #2000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.176087480898138, name=
+    'Load-Segment-184', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-184'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-185', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:5 #4000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.164608351137233, name=
+    'Load-Segment-185', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-185'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-186', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:5 #8000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.151441271888074, name=
+    'Load-Segment-186', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-186'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-187', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:5 #10000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.13562898430167, name=
+    'Load-Segment-187', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-187'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-188', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:5 #20000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.0497941268240337, name=
+    'Load-Segment-188', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-188'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-189', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#0:5 #20000000 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=-0.027126, name=
+    'Load-Segment-189', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-189'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-190', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#4 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=-0.011993204, name=
+    'Load-Segment-190', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-190'])
+mdb.models['Model-1'].rootAssembly.Surface(name='Surf-Segment-191', side1Edges=
+    mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].edges.getSequenceFromMask(
+    mask=('[#8 ]', ), ))
+mdb.models['Model-1'].Pressure(amplitude=UNSET, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', magnitude=0.003139592, name=
+    'Load-Segment-191', region=
+    mdb.models['Model-1'].rootAssembly.surfaces['Surf-Segment-191'])
+from optimization import *
+from job import *
+mdb.models['Model-1'].TopologyTask(algorithm=CONDITION_BASED_OPTIMIZATION, 
+    freezeBoundaryConditionRegions=ON, name='Stiffness optimization', region=
+    mdb.models['Model-1'].rootAssembly.sets['TopOptSet'])
+mdb.models['Model-1'].optimizationTasks['Stiffness optimization'].SingleTermDesignResponse(
+    drivingRegion=None, identifier='STRAIN_ENERGY', name='Strain Energy', 
+    operation=SUM, region=MODEL, stepOptions=())
+mdb.models['Model-1'].optimizationTasks['Stiffness optimization'].SingleTermDesignResponse(
+    drivingRegion=None, identifier='VOLUME', name='Volume', operation=SUM, 
+    region=MODEL, stepOptions=())
+mdb.models['Model-1'].optimizationTasks['Stiffness optimization'].ObjectiveFunction(
+    name='Min Strain Energy', objectives=((OFF, 'Strain Energy', 1.0, 0.0, ''), 
+    ))
+mdb.models['Model-1'].optimizationTasks['Stiffness optimization'].OptimizationConstraint(
+    designResponse='Volume', name='Volume', restrictionMethod=RELATIVE_EQUAL, 
+    restrictionValue=0.8)
+mdb.models['Model-1'].optimizationTasks['Stiffness optimization'].TopologyDemoldControl(
+    collisionCheckRegion=DEMOLD_REGION, csys=None, draftAngle=0.0, name=
+    'Restrict-1', pointRegion=None, pullDirection=((0.0, 0.0, 0.0), (0.0, 0.0, 
+    1.0)), region=Region(
+    faces=mdb.models['Model-1'].rootAssembly.instances['Airfoil-1'].faces.getSequenceFromMask(
+    mask=('[#1 ]', ), )), technique=AUTO)
+mdb.Job(atTime=None, getMemoryFromAnalysis=True, licenseType=DEFAULT, memory=90
+    , memoryUnits=PERCENTAGE, model='Model-1', name=
+    'TopOpt-Job_20251120_192429', numCpus=1, numGPUs=0, queue=None, type=
+    ANALYSIS, waitHours=0, waitMinutes=0)
+mdb.OptimizationProcess(dataSaveFrequency=OPT_DATASAVE_SPECIFY_CYCLE, 
+    description='Topology optimization for airfoil stiffness - 20251120_192429'
+    , directory='C:\\Users\\Lorenzo\\Desktop\\TopOpt\\TopOpt_20251120_192429', 
+    maxDesignCycle=15, model='Model-1', name='TopOpt', odbMergeFrequency=2, 
+    prototypeJob='TopOpt-Job_20251120_192429', saveInitial=False, task=
+    'Stiffness optimization')
+#* TypeError: keyword error on directory

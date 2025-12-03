@@ -1,0 +1,52 @@
+Tosca                           : C:\SIMULIA\EstProducts\2024\win_b64
+Tosca Structure Server          : C:\SIMULIA\EstProducts\2024\win_b64\code\bin\SMATocToscaServerMain.exe
+Environment file                : C:\SIMULIA\EstProducts\2024\win_b64\code\command\tosca_env.cmd
+Python interpreter              : C:\SIMULIA\EstProducts\2024\win_b64\tools\SMApy\python3.10\python.exe
+Tosca Structure Python launcher : C:\SIMULIA\EstProducts\2024\win_b64\code\python3.10\lib\SMATsoPyControlMain.pyc
+(NOTICE  ) [11:18:59|tosca_driver]  -------------------------------------------------------------------------- 
+(NOTICE  ) [11:18:59|tosca_driver] |                                                                          |
+(NOTICE  ) [11:18:59|tosca_driver] |                             Tosca Structure                              |
+(NOTICE  ) [11:18:59|tosca_driver] |                      3DEXPERIENCE R2024x Hot Fix 2                       |
+(NOTICE  ) [11:18:59|tosca_driver] |                                                                          |
+(NOTICE  ) [11:18:59|tosca_driver]  -------------------------------------------------------------------------- 
+(NOTICE  ) [11:18:59|tosca_driver] 
+(NOTICE  ) [11:18:59|tosca_driver] Tosca started at Thu, 20 Nov 2025 11:18:59
+(NOTICE  ) [11:18:59|tosca_driver] 
+(NOTICE  ) [11:18:59|tosca_driver] Starting job TopOpt
+(NOTICE  ) [11:18:59|tosca_driver] Starting SIMULIA Tosca Structure Preprocessor
+(NOTICE  ) [11:19:00|tosca_driver] Starting abaqus analysis - design cycle 0
+(NOTICE  ) [11:19:04|tosca_driver] Starting SIMULIA Tosca Structure optimization module - design cycle 0
+(NOTICE  ) [11:19:05|tosca_driver] Starting abaqus analysis - design cycle 1
+(NOTICE  ) [11:19:12|tosca_driver] Starting SIMULIA Tosca Structure optimization module - design cycle 1
+(NOTICE  ) [11:19:13|tosca_driver] Starting abaqus analysis - design cycle 2
+(NOTICE  ) [11:19:20|tosca_driver] Starting SIMULIA Tosca Structure optimization module - design cycle 2
+(NOTICE  ) [11:19:21|tosca_driver] Starting abaqus analysis - design cycle 3
+(NOTICE  ) [11:19:28|tosca_driver] Starting SIMULIA Tosca Structure optimization module - design cycle 3
+(NOTICE  ) [11:19:30|tosca_driver] Starting abaqus analysis - design cycle 4
+(NOTICE  ) [11:19:37|tosca_driver] Starting SIMULIA Tosca Structure optimization module - design cycle 4
+(NOTICE  ) [11:19:38|tosca_driver] Starting abaqus analysis - design cycle 5
+(NOTICE  ) [11:19:45|tosca_driver] Starting SIMULIA Tosca Structure optimization module - design cycle 5
+(NOTICE  ) [11:19:46|tosca_driver] Starting abaqus analysis - design cycle 6
+(NOTICE  ) [11:19:53|tosca_driver] Starting SIMULIA Tosca Structure optimization module - design cycle 6
+(NOTICE  ) [11:19:55|tosca_driver] Starting abaqus analysis - design cycle 7
+(NOTICE  ) [11:20:03|tosca_driver] Starting SIMULIA Tosca Structure optimization module - design cycle 7
+(NOTICE  ) [11:20:04|tosca_driver] Starting abaqus analysis - design cycle 8
+(NOTICE  ) [11:20:11|tosca_driver] Starting SIMULIA Tosca Structure optimization module - design cycle 8
+(NOTICE  ) [11:20:13|tosca_driver] Starting abaqus analysis - design cycle 9
+(NOTICE  ) [11:20:20|tosca_driver] Starting SIMULIA Tosca Structure optimization module - design cycle 9
+(NOTICE  ) [11:20:22|tosca_driver] Starting abaqus analysis - design cycle 10
+(NOTICE  ) [11:20:29|tosca_driver] Starting SIMULIA Tosca Structure optimization module - design cycle 10
+(NOTICE  ) [11:20:31|tosca_driver] Starting abaqus analysis - design cycle 11
+(NOTICE  ) [11:20:38|tosca_driver] Starting SIMULIA Tosca Structure optimization module - design cycle 11
+(NOTICE  ) [11:20:40|tosca_driver] Starting abaqus analysis - design cycle 12
+(NOTICE  ) [11:20:47|tosca_driver] Starting SIMULIA Tosca Structure optimization module - design cycle 12
+(NOTICE  ) [11:20:49|tosca_driver] Starting abaqus analysis - design cycle 13
+(NOTICE  ) [11:20:56|tosca_driver] Starting SIMULIA Tosca Structure optimization module - design cycle 13
+(NOTICE  ) [11:20:58|tosca_driver] Starting abaqus analysis - design cycle 14
+(NOTICE  ) [11:21:05|tosca_driver] Starting SIMULIA Tosca Structure optimization module - design cycle 14
+(NOTICE  ) [11:21:07|tosca_driver] Starting abaqus analysis - design cycle 15
+(NOTICE  ) [11:21:14|tosca_driver] Starting SIMULIA Tosca Structure optimization module - design cycle 15
+(NOTICE  ) [11:21:16|tosca_driver] Last design cycle completed
+(NOTICE  ) [11:21:16|tosca_driver] Stopping solver process
+(NOTICE  ) [11:21:16|tosca_driver] Starting SIMULIA Tosca Structure report module
+(NOTICE  ) [11:21:16|tosca_driver] Application finished successfully
