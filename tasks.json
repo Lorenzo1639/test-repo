@@ -1,0 +1,89 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run TopOpt Airfoil",
+      "type": "shell",
+      "command": "cmd.exe",
+      "args": [
+        "/c",
+        "abaqus cae noGUI=\"C:\\Users\\Lorenzo\\Desktop\\Semester project\\Project\\test-repo\\prove\\MacroTopOptSquare.py\" > \"C:\\Users\\Lorenzo\\Desktop\\TopOpt\\vs_log_airfoil.txt\""
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Multislice 12",
+      "type": "shell",
+      "command": "cmd.exe",
+      "args": [
+        "/c",
+        "abaqus cae noGUI=\"C:\\Users\\Lorenzo\\Desktop\\Semester project\\Project\\test-repo\\run_multislice_12.py\" > \"C:\\Users\\Lorenzo\\Desktop\\TopOpt\\vs_log_multislice12.txt\""
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Bordo",
+      "type": "shell",
+      "command": "cmd.exe",
+      "args": [
+        "/c",
+        "abaqus cae noGUI=\"C:\\Users\\Lorenzo\\Desktop\\Semester project\\Project\\test-repo\\MacroBordo.py\" > \"C:\\Users\\Lorenzo\\Desktop\\TopOpt\\vs_log_multislice12.txt\""
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run nospline",
+      "type": "shell",
+      "command": "cmd.exe",
+      "args": [
+        "/c",
+        "abaqus cae noGUI=\"C:\\Users\\Lorenzo\\Desktop\\Semester project\\Project\\test-repo\\Nospline.py\" > \"C:\\Users\\Lorenzo\\Desktop\\TopOpt\\vs_log_multislice12.txt\""
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run TopOptSingle",
+      "type": "shell",
+      "command": "cmd.exe",
+      "args": [
+        "/c",
+        "abaqus cae noGUI=\"C:\\Users\\Lorenzo\\Desktop\\Semester project\\Project\\test-repo\\TopOptSingle.py\" > \"C:\\Users\\Lorenzo\\Desktop\\TopOpt\\vs_log_TopOptSingle.txt\""
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run TopOptMulti",
+      "type": "shell",
+      "command": "cmd.exe",
+      "args": [
+        "/c",
+        "abaqus cae noGUI=\"C:\\Users\\Lorenzo\\Desktop\\Semester project\\Project\\test-repo\\TopOptMulti.py\" > \"C:\\Users\\Lorenzo\\Desktop\\TopOpt\\vs_log_TopOptMulti.txt\""
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "problemMatcher": []
+    }
+  ]
+}
