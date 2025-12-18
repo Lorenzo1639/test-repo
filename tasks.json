@@ -2,20 +2,6 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Run TopOptSingle",
-      "type": "shell",
-      "command": "cmd.exe",
-      "args": [
-        "/c",
-        "abaqus cae noGUI=\"C:\\Users\\Lorenzo\\Desktop\\Semester project\\Project\\test-repo\\TopOptSingle.py\" > \"C:\\Users\\Lorenzo\\Desktop\\TopOpt\\vs_log_TopOptSingle.txt\""
-      ],
-      "group": {
-        "kind": "build",
-        "isDefault": false
-      },
-      "problemMatcher": []
-    },
-    {
       "label": "Run TopOptMulti",
       "type": "shell",
       "command": "cmd.exe",
@@ -31,4 +17,5 @@
     }
   ]
 }
+
 
