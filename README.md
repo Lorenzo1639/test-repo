@@ -7,8 +7,10 @@ from CSV files, builds the finite element model, applies boundary conditions
 and loads, and runs a stiffness-based topology optimization for multiple
 cases and slices.
 
-The repository also includes a Visual Studio Code task (`tasks.json`) that
+The repository also includes a Visual Studio Code task (tasks.json) that
 allows running the script in noGUI mode directly from the editor.
+The Python file and the tasks.json file must be located in the same folder;
+then, from the Terminal menu, select Run Build Task to execute the script.
 
 The code was developed and used in the context of a semester project and is
 provided to support the reproducibility of the numerical results.
